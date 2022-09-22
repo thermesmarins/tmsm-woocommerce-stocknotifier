@@ -1,3 +1,6 @@
+### 1.1.0: September 22nd, 2022
+* Change email input type from "text" to "email"
+
 ### 1.0.9: September 20th, 2022
 * Product variation title always display parent product title (no attributes shown)
 
