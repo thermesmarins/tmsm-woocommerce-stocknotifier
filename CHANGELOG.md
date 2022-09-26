@@ -1,3 +1,5 @@
+* Refactoring for count users
+
 ### 1.1.0: September 22nd, 2022
 * Change email input type from "text" to "email"
 

@@ -16,11 +16,11 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @param string $product_id Product id.
  *
- * @return mixed return the array of user email .
+ * @return array return the array of user email .
  */
-function wsn_get_waitlist( $product_id ) {
+function wsn_get_waitlist( $product_id ): array {
 	// Return list of the user email.
-	return get_post_meta( absint( $product_id ), WSN_USERS_META_KEY, true );
+	return (array) get_post_meta( absint( $product_id ), WSN_USERS_META_KEY, true );
 }
 
 /**

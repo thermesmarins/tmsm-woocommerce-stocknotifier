@@ -408,7 +408,7 @@ if ( ! class_exists( 'WSN_Options' ) ) {
 
 									foreach ( $waitlist as $data ) {
 
-										$total_waitlist_user = count( get_post_meta( $pid, WSN_USERS_META_KEY, true ) );
+										$total_waitlist_user = count( wsn_get_waitlist( $pid) );
 										?>
                                         <div class="wsn-tab-table-item"
                                              id="row-<?php echo intval( $inc ) . '-' . intval( $pid ); ?>">
@@ -452,8 +452,8 @@ if ( ! class_exists( 'WSN_Options' ) ) {
 			$waitlist       = wsn_get_waitlist( $pid );
 
 			// get users list
-			$users_list = get_post_meta( $pid, WSN_USERS_META_KEY, true ) ;
-			$total_waitlist_user = count( is_countable( $users_list ) ? $users_list : [] );
+			$users_list = wsn_get_waitlist( $pid) ;
+			$total_waitlist_user = count( $users_list );
 
 			?>
             <div class="wsn-wrapper" id="<?php echo intval( $pid ); ?>">
@@ -561,7 +561,7 @@ if ( ! class_exists( 'WSN_Options' ) ) {
 												<?php if ( ! empty( $waitlist ) ) {
 													foreach ( $waitlist as $key => $data ) {
 														// get the total user waitlist
-														$total_waitlist_user = count( get_post_meta( $pid, WSN_USERS_META_KEY, true ) );
+														$total_waitlist_user = count( wsn_get_waitlist( $pid ) );
 														?>
                                                         <div class="wsn-tab-table-item"
                                                              id="row-<?php echo absint( $key ) . '-' . absint( $pid ); ?>">
