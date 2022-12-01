@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: TMSM WooCommerce In-Stock Notifier
- * Version: 1.1.0
+ * Version: 1.1.1
  * Plugin URI: https://github.com/thermesmarins/tmsm-woocommerce-stocknotifier
  * Author: Thermes Marins de Saint-Malo
  * Author URI: https://github.com/thermesmarins/
