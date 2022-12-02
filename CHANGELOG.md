@@ -1,4 +1,5 @@
-* Add missing plugins headers
+### 1.1.3: December 2nd, 2022
+* Add missing plugins headers for Github Updater
 
 ### 1.1.2: December 2nd, 2022
 * Rename language folder to languages
