@@ -1,3 +1,5 @@
+* Add missing plugins headers
+
 ### 1.1.2: December 2nd, 2022
 * Rename language folder to languages
 

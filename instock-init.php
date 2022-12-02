@@ -13,6 +13,9 @@
  * WC requires at least: 5.0
  * WC tested up to: 5.6
  * Original Author: Govind Kumar <gkprmr@gmail.com>
+ * Github Plugin URI: https://github.com/thermesmarins/tmsm-woocommerce-stocknotifier
+ * Github Branch:     master
+ * Requires PHP:      7.4
  **/
 
 use InStockNotifier\WSN_Bootstrap;
