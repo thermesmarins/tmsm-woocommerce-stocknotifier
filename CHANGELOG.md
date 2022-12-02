@@ -1,3 +1,4 @@
+### 1.1.2: December 2nd, 2022
 * Rename language folder to languages
 
 ### 1.1.1: September 22nd, 2022
