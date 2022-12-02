@@ -19,22 +19,22 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/classes/class-wsn-email.php:54 inc/classes/class-wsn-initialize.php:357
-#: inc/classes/class-wsn-initialize.php:358
-#: inc/classes/class-wsn-initialize.php:375
+#: inc/classes/class-wsn-email.php:56 inc/classes/class-wsn-initialize.php:361
+#: inc/classes/class-wsn-initialize.php:362
+#: inc/classes/class-wsn-initialize.php:379
 #: inc/classes/class-wsn-options.php:78
 msgid "In-Stock Notifier"
 msgstr ""
 
-#: inc/classes/class-wsn-email.php:55
+#: inc/classes/class-wsn-email.php:57
 msgid "When a product is Out-of-Stock and when it comes In-Stock again, this email is sent to all users registered in the waiting list for that product."
 msgstr ""
 
-#: inc/classes/class-wsn-email.php:56
+#: inc/classes/class-wsn-email.php:58
 msgid "{product_title} now back in stock at {blogname}"
 msgstr ""
 
-#: inc/classes/class-wsn-email.php:57
+#: inc/classes/class-wsn-email.php:59
 msgid "A product you are waiting for is back in stock"
 msgstr ""
 
@@ -42,39 +42,39 @@ msgstr ""
 msgid "Waitlist"
 msgstr ""
 
-#: inc/classes/class-wsn-initialize.php:384
+#: inc/classes/class-wsn-initialize.php:388
 msgid "Enable Waitlist"
 msgstr ""
 
-#: inc/classes/class-wsn-initialize.php:390
+#: inc/classes/class-wsn-initialize.php:394
 msgid "Join Button label"
 msgstr ""
 
-#: inc/classes/class-wsn-initialize.php:392
+#: inc/classes/class-wsn-initialize.php:396
 msgid "Join Waitlist"
 msgstr ""
 
-#: inc/classes/class-wsn-initialize.php:397
+#: inc/classes/class-wsn-initialize.php:401
 msgid "Leave Button label"
 msgstr ""
 
-#: inc/classes/class-wsn-initialize.php:399
+#: inc/classes/class-wsn-initialize.php:403
 msgid "Leave Waitlist"
 msgstr ""
 
-#: inc/classes/class-wsn-initialize.php:404
+#: inc/classes/class-wsn-initialize.php:408
 msgid "Additional Options"
 msgstr ""
 
-#: inc/classes/class-wsn-initialize.php:406
+#: inc/classes/class-wsn-initialize.php:410
 msgid "Remove user after email sent."
 msgstr ""
 
-#: inc/classes/class-wsn-initialize.php:414
+#: inc/classes/class-wsn-initialize.php:418
 msgid "Allow guest to join."
 msgstr ""
 
-#: inc/classes/class-wsn-initialize.php:421
+#: inc/classes/class-wsn-initialize.php:425
 msgid "Archive user after email sent."
 msgstr ""
 

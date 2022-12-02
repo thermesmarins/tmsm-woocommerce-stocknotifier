@@ -1,3 +1,5 @@
+* Rename language folder to languages
+
 ### 1.1.1: September 22nd, 2022
 * Refactoring for count users
 
