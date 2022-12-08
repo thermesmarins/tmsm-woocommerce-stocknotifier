@@ -1,3 +1,5 @@
+* Change translation
+
 ### 1.1.3: December 2nd, 2022
 * Add missing plugins headers for Github Updater
 

@@ -258,7 +258,7 @@ msgstr ""
 msgid "There is no product."
 msgstr ""
 
-#: instock-init.php:71
+#: instock-init.php:74
 msgid "In-Stock Notifier can't active because it requires WooCommerce in order to work."
 msgstr ""
 

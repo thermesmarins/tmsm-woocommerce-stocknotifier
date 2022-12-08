@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TMSM WooCommerce Stocknotifier\n"
-"POT-Creation-Date: 2022-12-02 15:38+0100\n"
-"PO-Revision-Date: 2022-12-02 15:38+0100\n"
+"POT-Creation-Date: 2022-12-08 11:27+0100\n"
+"PO-Revision-Date: 2022-12-08 11:27+0100\n"
 "Last-Translator: Nicolas Mollet <nico.mollet@gmail.com>\n"
 "Language-Team: https://github.com/thermesmarins/\n"
 "Language: fr\n"
@@ -203,7 +203,7 @@ msgstr "Liste d’attente pour %s"
 
 #: inc/classes/class-wsn-product.php:187 inc/classes/class-wsn-product.php:230
 msgid "Out of Stock"
-msgstr "En réassort, bientôt disponible"
+msgstr "Épuisé"
 
 #: inc/classes/class-wsn-product.php:189
 msgid "Provide your Email so we can email you when product comes in-stock."
@@ -262,7 +262,7 @@ msgstr "Bonjour %s, voici le produit que vous attendiez."
 msgid "There is no product."
 msgstr "Il n’y a aucun produit."
 
-#: instock-init.php:71
+#: instock-init.php:74
 msgid "In-Stock Notifier can't active because it requires WooCommerce in order to work."
 msgstr ""
 
