@@ -46,13 +46,19 @@ if ( ! class_exists( 'WSN_Product' ) ) {
 		 * @var WC_Product
 		 */
 		private $current_product;
+		/**
+		 * Current product id
+		 *
+		 * 
+		 */
+		public int $product_id;
 
 		/**
 		 * Current product type
 		 *
 		 * @var string product_type;
 		 */
-		private $product_type;
+		public $product_type;
 
 		/**
 		 * List of allowed product type
