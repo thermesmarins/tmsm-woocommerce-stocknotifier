@@ -11,7 +11,7 @@
  * License: GPL2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * WC requires at least: 5.0
- * WC tested up to: 5.6
+ * WC tested up to: 8.3
  * Original Author: Govind Kumar <gkprmr@gmail.com>
  * Github Plugin URI: https://github.com/thermesmarins/tmsm-woocommerce-stocknotifier
  * Github Branch:     master
@@ -37,6 +37,12 @@ define( 'WSN_EMAIL_TEMPLATE_PATH', WSN_PATH . 'templates' . DIRECTORY_SEPARATOR 
 
 define( 'WSN_USERS_META_KEY', 'wsn_waitlist_users' );
 define( 'WSN_NUM_META', 'wsn_total_num_waitlist' );
+
+add_action( 'before_woocommerce_init', function() {
+	if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
+		\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
+	}
+} );
 
 // Deactivate the plugin of woocommerce isn't activated.
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ), true ) ) {
