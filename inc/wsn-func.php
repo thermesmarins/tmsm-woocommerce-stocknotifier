@@ -32,7 +32,10 @@ function wsn_get_waitlist( $product_id ): array {
  * @return bool
  */
 function wsn_check_register( $user, $waitlist ) {
-	// Return true if email found.
+	if (! is_array($waitlist)) {
+		return false;
+	}
+	//Return true if email found.
 	return in_array( $user, $waitlist, true );
 }
 

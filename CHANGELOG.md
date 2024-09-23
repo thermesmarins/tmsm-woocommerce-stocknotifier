@@ -1,3 +1,6 @@
+### 1.1.5: September 23th, 2024
+* Update code for compatibility HPOS woocommerce
+
 ### 1.1.4: December 8th, 2022
 * Change translation
 
