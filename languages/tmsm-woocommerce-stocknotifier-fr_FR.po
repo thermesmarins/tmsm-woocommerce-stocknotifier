@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TMSM WooCommerce Stocknotifier\n"
-"POT-Creation-Date: 2022-12-08 11:27+0100\n"
-"PO-Revision-Date: 2022-12-08 11:27+0100\n"
+"POT-Creation-Date: 2025-07-21 16:35+0200\n"
+"PO-Revision-Date: 2025-07-21 16:36+0200\n"
 "Last-Translator: Nicolas Mollet <nico.mollet@gmail.com>\n"
 "Language-Team: https://github.com/thermesmarins/\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
@@ -30,7 +30,7 @@ msgstr ""
 
 #: inc/classes/class-wsn-email.php:58
 msgid "{product_title} now back in stock at {blogname}"
-msgstr "{product_title} est maintenant en stock"
+msgstr "{product_title} est maintenant en stock {blogname}"
 
 #: inc/classes/class-wsn-email.php:59
 msgid "A product you are waiting for is back in stock"
@@ -201,47 +201,47 @@ msgstr "Cliquer pour déplier"
 msgid "Waitlist for %s"
 msgstr "Liste d’attente pour %s"
 
-#: inc/classes/class-wsn-product.php:187 inc/classes/class-wsn-product.php:230
+#: inc/classes/class-wsn-product.php:193 inc/classes/class-wsn-product.php:236
 msgid "Out of Stock"
 msgstr "Épuisé"
 
-#: inc/classes/class-wsn-product.php:189
+#: inc/classes/class-wsn-product.php:195
 msgid "Provide your Email so we can email you when product comes in-stock."
 msgstr "Inscrivez-vous pour être alerté lorsque ce produit sera disponible."
 
-#: inc/classes/class-wsn-product.php:194
+#: inc/classes/class-wsn-product.php:200
 msgid "Enter Your Email Address..."
-msgstr "Saisissez votre adresse email"
+msgstr "Saisissez votre adresse email.."
 
-#: inc/classes/class-wsn-product.php:205 inc/classes/class-wsn-product.php:254
+#: inc/classes/class-wsn-product.php:211 inc/classes/class-wsn-product.php:260
 msgid "Join waitlist"
 msgstr "Je veux être alerté"
 
-#: inc/classes/class-wsn-product.php:234
+#: inc/classes/class-wsn-product.php:240
 msgid "We'll notify you as soon as item is back in stock."
 msgstr "Nous vous notifierons par email quand le produit revient en stock."
 
-#: inc/classes/class-wsn-product.php:235
+#: inc/classes/class-wsn-product.php:241
 msgid "Join the waitlist, so we can notify you as soon as the item is back in stock."
 msgstr "Inscrivez-vous pour être alerté lorsque ce produit sera disponible."
 
-#: inc/classes/class-wsn-product.php:246
+#: inc/classes/class-wsn-product.php:252
 msgid "Leave waitlist"
 msgstr "Je ne veux plus être alerté"
 
-#: inc/classes/class-wsn-product.php:305
+#: inc/classes/class-wsn-product.php:311
 msgid "Please enter valid email address."
 msgstr "Saisissez un email valide."
 
-#: inc/classes/class-wsn-product.php:311
+#: inc/classes/class-wsn-product.php:317
 msgid "This email is already in the wait list for this product, please try any different email."
 msgstr "Cet email est déjà dans la liste d’attente pour ce produit, essayez un email différent."
 
-#: inc/classes/class-wsn-product.php:317
+#: inc/classes/class-wsn-product.php:323
 msgid "You have successfully joined waitlist."
 msgstr "Vous avez rejoint la liste d’attente."
 
-#: inc/classes/class-wsn-product.php:328
+#: inc/classes/class-wsn-product.php:334
 msgid "You have been removed from the waiting list for this product"
 msgstr "Vous avez été retiré de la liste d’attente pour ce produit"
 
@@ -262,7 +262,7 @@ msgstr "Bonjour %s, voici le produit que vous attendiez."
 msgid "There is no product."
 msgstr "Il n’y a aucun produit."
 
-#: instock-init.php:74
+#: instock-init.php:80
 msgid "In-Stock Notifier can't active because it requires WooCommerce in order to work."
 msgstr ""
 
@@ -297,7 +297,7 @@ msgstr "Vous recevez cet email car votre adresse est enregistrée dans la liste 
 #: templates/email/wsn-email-template.php:22
 #, php-format
 msgid "If you would like to purchase %1$s, please visit the following <a href=\"%2$s\">link</a>"
-msgstr "Il vous attend : <a href=\"%2$s\">%1$s</a>.<br><br>À très bientôt."
+msgstr "Il vous attend : <a href=\"%2$s\">%1$s</a>.<br><br>À très bientôt"
 
 #, fuzzy
 #~| msgid "request"
@@ -347,8 +347,8 @@ msgstr "Il vous attend : <a href=\"%2$s\">%1$s</a>.<br><br>À très bientôt."
 #~ msgstr "404 Error"
 
 #~ msgid ""
-#~ "Der von Ihnen aufgerufene Inhalt existiert nicht, oder nicht mehr. Sie können Ihre Reise von unserer <a href="
-#~ "\"http://www.panoramahotel-oberjoch.de/\">Startseite</a> aus neu beginnen oder auf einen beliebigen "
+#~ "Der von Ihnen aufgerufene Inhalt existiert nicht, oder nicht mehr. Sie können Ihre Reise von unserer <a "
+#~ "href=\"http://www.panoramahotel-oberjoch.de/\">Startseite</a> aus neu beginnen oder auf einen beliebigen "
 #~ "Navigationspunkt klicken."
 #~ msgstr ""
 #~ "The content you have requested does not exist (no longer exists). Please go to our homepage to start your journey "
@@ -408,8 +408,8 @@ msgstr "Il vous attend : <a href=\"%2$s\">%1$s</a>.<br><br>À très bientôt."
 #~ "Gerne beraten wir Sie persönlich zu<br />Ihrem Aufenthalt bei uns. Rufen Sie an:<br /><br /><a style=\"color: #fff; "
 #~ "font-weight: bold;\" href=\"tel:+49832493330\">Tel. +49 (0) 8324 933 30</a>"
 #~ msgstr ""
-#~ "We are happy to advise you <br />personally about your stay with us. <br />Please call us: <br /><br /><a style="
-#~ "\"color: #fff; font-weight: bold;\" href=\"tel:+49832493330\">Tel. +49 (0) 8324 933 30</a>"
+#~ "We are happy to advise you <br />personally about your stay with us. <br />Please call us: <br /><br /><a "
+#~ "style=\"color: #fff; font-weight: bold;\" href=\"tel:+49832493330\">Tel. +49 (0) 8324 933 30</a>"
 
 #~ msgid "Gutschein?"
 #~ msgstr "Voucher?"
