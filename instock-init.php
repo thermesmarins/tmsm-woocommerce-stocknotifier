@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: TMSM WooCommerce In-Stock Notifier
- * Version: 1.1.6
+ * Version: 1.1.7
  * Plugin URI: https://github.com/thermesmarins/tmsm-woocommerce-stocknotifier
  * Author: Thermes Marins de Saint-Malo
  * Author URI: https://github.com/thermesmarins/
@@ -58,13 +58,13 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
  *
  * @since 1.0.4
  */
-add_action( 'plugins_loaded', 'wsn_localization_plugin' );
+add_action( 'init', 'wsn_localization_plugin' );
 
 /**
  * Load plugin's language file
  */
 function wsn_localization_plugin() {
-    load_plugin_textdomain( 'tmsm-woocommerce-stocknotifier', false, WSN_PATH . 'languages/' );
+    load_plugin_textdomain( 'tmsm-woocommerce-stocknotifier', false, dirname(plugin_basename(__FILE__)) . '/languages/' );
 }
 
 /**

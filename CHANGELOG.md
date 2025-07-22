@@ -1,3 +1,5 @@
+### 1.1.7: July 22nd, 2025
+* Fix translatin add init to load_plugin_textdomain and change directory file
 ### 1.1.6: September 23th, 2024
 * Update code for compatibility HPOS woocommerce
 
